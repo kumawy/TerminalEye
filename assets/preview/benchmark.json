@@ -1,0 +1,51 @@
+{
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "scope": "render_eye + to_ansi only, warmed static geometry cache; no terminal I/O or camera; CPU relative to one core",
+  "samples": [
+    {
+      "width": 80,
+      "height": 24,
+      "style": "ascii",
+      "frames": 60,
+      "throughput_fps": 221.73,
+      "cpu_ms_per_frame": 4.2,
+      "bytes_per_full_frame": 23763,
+      "paced_fps": 15.2,
+      "paced_cpu_percent_one_core": 11.6
+    },
+    {
+      "width": 80,
+      "height": 24,
+      "style": "blocks",
+      "frames": 60,
+      "throughput_fps": 149.26,
+      "cpu_ms_per_frame": 6.67,
+      "bytes_per_full_frame": 51265,
+      "paced_fps": 15.96,
+      "paced_cpu_percent_one_core": 18.57
+    },
+    {
+      "width": 100,
+      "height": 28,
+      "style": "ascii",
+      "frames": 60,
+      "throughput_fps": 198.55,
+      "cpu_ms_per_frame": 5.03,
+      "bytes_per_full_frame": 33818,
+      "paced_fps": 16.0,
+      "paced_cpu_percent_one_core": 10.99
+    },
+    {
+      "width": 100,
+      "height": 28,
+      "style": "blocks",
+      "frames": 60,
+      "throughput_fps": 79.72,
+      "cpu_ms_per_frame": 10.55,
+      "bytes_per_full_frame": 72004,
+      "paced_fps": 15.96,
+      "paced_cpu_percent_one_core": 17.74
+    }
+  ]
+}
